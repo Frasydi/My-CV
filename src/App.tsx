@@ -38,14 +38,15 @@ function App() {
       ]
     },
     {
-      title: 'Fullstack Developer',
-      company: 'Lab App - Unismuh Makassar',
+      title: 'Asisten Lab',
+      company: 'Unismuh Makassar',
       period: '2025',
       description: [
-        'Mengembangkan aplikasi AI untuk checking jawaban tugas',
-        'Implementasi sistem deteksi plagiasi antar jawaban',
-        'Digunakan aktif di Laboratorium Informatika Unismuh Makassar',
-        'Mengintegrasikan AI/ML dengan web application'
+        "Mengembangkan aplikasi AI untuk checking jawaban tugas",
+        "Implementasi sistem deteksi plagiasi antar jawaban",
+        "Pembuatan aplikasi absensi berbasis bluetooth",
+        "Aktif mengajar dan membimbing mahasiswa dalam bidang Informatika",
+        
       ]
     }
   ];
