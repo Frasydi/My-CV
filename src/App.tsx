@@ -65,6 +65,12 @@ function App() {
       // githubUrl: 'https://github.com/fachri-rasyidi/autocs-chatbot'
     },
     {
+      title: 'Tugas Sekolah AI',
+      description: 'Aplikasi AI untuk membuat soal dari dokumen PDF dengan pengaturan jumlah pilihan ganda dan essay. Dilengkapi sistem penilaian otomatis dan deteksi plagiasi untuk mencegah menyontek.',
+      technologies: ['React', 'Nest JS', 'PDF.js', 'OpenAI API', 'MongoDB'],
+      demoUrl: 'https://sekolah.frasydi.site'
+    },
+    {
       title : "Absensi Bluetooth",
       description: 'Aplikasi absensi berbasis Bluetooth untuk memudahkan pencatatan kehadiran. Digunakan aktif di Lab Informatika Unismuh Makassar.',
       technologies: ['React Native', 'Nest JS', 'Bluetooth API', 'MongoDB', 'Express'],
@@ -87,6 +93,7 @@ function App() {
       technologies: ['React'],
       demoUrl: 'https://kamusbahasabugis.kemdikbud.go.id'
     },
+    
     
   ];
 
