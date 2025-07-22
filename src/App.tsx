@@ -156,11 +156,7 @@ function App() {
           <div className="relative bg-slate-800/50 backdrop-blur-sm rounded-2xl p-8 border border-slate-700 hover:border-slate-600 transition-all duration-500">
             <div className="absolute inset-0 bg-gradient-to-r from-slate-700/10 to-gray-700/10 rounded-2xl blur-lg"></div>
             <p className="relative text-gray-300 text-lg leading-relaxed">
-              Saya adalah mahasiswa Teknik Informatika di Universitas Muhammadiyah Makassar dengan passion yang mendalam 
-              dalam dunia programming. Menguasai 8 bahasa pemrograman dengan 5 di antaranya level advance, terutama 
-              TypeScript dan JavaScript. Berpengalaman sebagai Fullstack Developer dalam berbagai proyek mulai dari 
-              fintech, AI chatbot, hingga platform komunitas. Saya selalu antusias dalam mengeksplorasi teknologi 
-              terbaru dan mencari solusi inovatif untuk setiap tantangan.
+             Saya adalah seorang Fullstack Developer yang memiliki ketertarikan mendalam pada pengembangan teknologi modern. Berpengalaman mengerjakan berbagai proyek mulai dari platform fintech, chatbot berbasis AI, hingga sistem komunitas digital. Terbiasa bekerja menggunakan TypeScript dan JavaScript, serta teknologi terkait dalam pengembangan aplikasi end-to-end. Saya selalu antusias dalam mempelajari hal baru dan berkomitmen untuk memberikan solusi yang efisien dan inovatif di setiap tantangan pengembangan.
             </p>
           </div>
         </section>
