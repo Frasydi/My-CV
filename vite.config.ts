@@ -11,6 +11,7 @@ export default defineConfig({
     allowedHosts: [
       'yto8mwi7.frasydihost.space',
       'localhost', // tetap bisa pakai localhost
+      'frasydi.site'
     ],
   }
 })
