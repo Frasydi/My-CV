@@ -104,23 +104,11 @@ function App() {
   const experiences = {
     id: [
       {
-        title: 'Backend Developer',
-        company: 'Chatbot AI – AutoCS',
-        period: '2025',
+        title : "Fullstack Developer",
+        company: "PT Infokes Indonesia",
+        period : "2025",
         description: [
-          'Membangun chatbot berbasis AI untuk mengotomatisasi layanan pelanggan dengan respons cepat, natural, dan kontekstual',
-          'Menerapkan fine-tuning model bahasa dan teknik Retrieval-Augmented Generation (RAG) untuk meningkatkan akurasi dan relevansi jawaban',
-          'Mengintegrasikan NLP dengan sistem CRM, menghasilkan chatbot yang sangat cerdas, mampu menjawab pertanyaan kompleks, serta menghemat biaya operasional dukungan pelanggan secara signifikan'
-        ]
-      },
-      {
-        title: 'Fullstack Developer',
-        company: '17s Club',
-        period: '2025',
-        description: [
-          'Mengembangkan aplikasi yang berfokus pada komunitas supplier untuk membangun jaringan bisnis dan kolaborasi',
-          'Menyediakan fitur counseling, di mana pengguna dapat mendaftar sesi konsultasi pada tanggal dan jam tertentu, dengan jadwal yang direset setiap minggu',
-          'Mengimplementasikan sistem referral code dengan mekanisme komisi, mendorong pertumbuhan anggota dan interaksi komunitas'
+          "Membangun aplikasi layanan kesehatan yang terintegrasi dengan bpjs"
         ]
       },
       {
@@ -162,13 +150,11 @@ function App() {
     ],
     en: [
       {
-        title: 'Backend Developer',
-        company: 'Chatbot AI – AutoCS',
-        period: '2025',
+        title : "Fullstack Developer",
+        company: "PT Infokes Indonesia",
+        period : "2025",
         description: [
-          'Built AI-based chatbot to automate customer service with fast, natural, and contextual responses',
-          'Implemented language model fine-tuning and Retrieval-Augmented Generation (RAG) techniques to improve answer accuracy and relevance',
-          'Integrated NLP with CRM systems, resulting in highly intelligent chatbot capable of answering complex questions and significantly reducing customer support operational costs'
+          "Building integrated healthcare service application with bpjs"
         ]
       },
       {
@@ -223,6 +209,13 @@ function App() {
   const projects = {
     id: [
       {
+        title: 'Blve Cashier',
+        description: 'Aplikasi kasir digital dengan fitur pembayaran cepat dan manajemen transaksi yang efisien antar outlet.',
+        technologies: ['Laravel', "Filament", 'PHP'],
+        githubUrl: undefined,
+        demoUrl: undefined
+      },
+      {
         title: 'AutoCS - AI Chatbot',
         description: 'Chatbot AI untuk otomasi layanan pelanggan dengan natural language processing dan response time yang optimal.',
         technologies: ['Nest JS', "PostgreSQL", 'TypeScript'],
@@ -266,6 +259,13 @@ function App() {
       }
     ],
     en: [
+      {
+        title: 'Blve Cashier',
+        description: 'Digital cashier application with fast payment features and efficient transaction management across outlets.',
+        technologies: ['Laravel', "Filament", 'PHP'],
+        githubUrl: undefined,
+        demoUrl: undefined
+      },
       {
         title: 'AutoCS - AI Chatbot',
         description: 'AI chatbot for customer service automation with natural language processing and optimal response time.',
