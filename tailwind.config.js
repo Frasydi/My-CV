@@ -7,15 +7,20 @@ export default {
   theme: {
     extend: {
       fontFamily: {
+        'display': ['Playfair Display', 'Georgia', 'serif'],
         'inter': ['Inter', 'sans-serif'],
+        'mono': ['JetBrains Mono', 'monospace'],
       },
       colors: {
-        primary: {
-          50: '#eff6ff',
-          100: '#dbeafe', 
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
+        gold: {
+          DEFAULT: '#c9a84c',
+          light: '#e8d5a3',
+          dark: '#a08030',
+        },
+        dark: {
+          DEFAULT: '#0a0a0f',
+          section: '#0f0f18',
+          card: '#141420',
         }
       }
     },
