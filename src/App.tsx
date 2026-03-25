@@ -631,7 +631,7 @@ function App() {
           <h2 className="section-heading text-3xl md:text-4xl mb-8 section-title-parallax">{content[language].download.cvTitle}</h2>
           <p className="text-[var(--text-secondary)] mb-8">{content[language].download.cvDesc}</p>
           <a
-            href={language === 'id' ? '/CV_Muhammad Fachri Rasyidi.pdf' : '/CV_Muhammad Fachri Rasyidi_English.pdf'}
+            href={`${language === 'id' ? '/CV_Muhammad Fachri Rasyidi.pdf' : '/CV_Muhammad Fachri Rasyidi_English.pdf'}?t=${Date.now()}`}
             download={language === 'id' ? 'CV_Muhammad_Fachri_Rasyidi.pdf' : 'CV_Muhammad_Fachri_Rasyidi_English.pdf'}
             className="elegant-btn elegant-btn-primary"
           >
